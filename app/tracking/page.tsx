@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Box, TextField, Button, Typography } from "@mui/material";
-import { axiosInstance } from "@/lib/components/axios";
+import { axiosInstance } from "@/lib/utils/axios";
 
 export default function Tracking() {
   const [trackingKey, setTrackingKey] = useState("");

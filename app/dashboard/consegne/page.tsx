@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Box } from "@mui/material";
 import { useRouter } from "next/navigation";
 
-import { axiosInstance } from "@/lib/components/axios";
+import { axiosInstance } from "@/lib/utils/axios";
 import PageHeader from "@/lib/components/PageHeader";
 import DataTable from "@/lib/components/DataTable";
 

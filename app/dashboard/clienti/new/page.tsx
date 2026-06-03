@@ -3,7 +3,7 @@
 import { Box } from "@mui/material";
 import { useRouter } from "next/navigation";
 import ClienteForm from "@/lib/components/ClienteForm";
-import { axiosInstance } from "@/lib/components/axios";
+import { axiosInstance } from "@/lib/utils/axios";
 
 export default function NewCliente() {
   const router = useRouter();
